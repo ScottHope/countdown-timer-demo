@@ -96,3 +96,19 @@ h6{
 .fa-bell-slash{
 	margin:0 0 0 246px
 }
+
+a:link{
+	color:crimson;
+}
+
+a:visited{
+	color:blue;
+}
+
+a:hover{
+	color:cyan;
+}
+
+a:active{
+	color:yellow;
+}
