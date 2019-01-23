@@ -1,3 +1,7 @@
+body{
+	background:#bbb;
+}
+
 .countDown{
 	font:1.5rem square721 bt,tahoma,arial;
 	text-align:center;
@@ -18,7 +22,7 @@
 #countContainer{
 	display:flex;
 	flex-wrap:wrap;
-	margin:auto;
+	margin:50px auto;
 }
 	
 .ended{
