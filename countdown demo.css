@@ -1,0 +1,89 @@
+.countDown{
+	font:1.5rem square721 bt,tahoma,arial;
+	text-align:center;
+	margin:3px 8px;
+	width:100%;
+	background:linear-gradient(#ddd 20%,#eee 80%);
+	border:2px inset #fff;
+	border-radius:5px;
+	user-select:none;
+	box-shadow:0 0 1px #000;
+}
+	
+#outerContainer{
+	width:300px;
+	margin:auto;
+}
+
+#countContainer{
+	display:flex;
+	flex-wrap:wrap;
+	margin:auto;
+}
+	
+.ended{
+	background:#000;
+	animation:pulse 3s infinite;
+}
+	
+@keyframes pulse{
+	from {background:radial-gradient(white,20%,red,75%,black)}
+		to {background:black}
+}
+			
+.target{
+	display:block;
+	margin:5px auto;
+	border:2px inset #fff;
+	outline:none;
+	font:0.9rem square721 bt,tahoma,arial;
+	background:linear-gradient(#ddd 20%,#eee 80%);
+	box-shadow:0 0 1px #000;
+	padding:1px 5px 0;
+}
+	
+.target[type='date']{
+	border-radius:5px 0 0 5px;
+	margin-right:0;
+	border-right:none;
+}
+	
+.target[type='time']{
+	border-radius:0 5px 5px 0;
+	margin-left:0;
+	border-left:none;
+}
+	
+.target[type='date']::-webkit-clear-button{
+	margin-left:-2px;
+}
+	
+#stopStart{
+	width:100%;
+	display:block;
+	margin:0 5px;
+	outline:none;
+}
+	
+.units{
+	font-size:0.7rem;
+	margin:0 2px 0 0.5px;
+	font-style:normal;
+}
+	
+h6{
+	display:inline;
+	font:100 0.7rem square721 bt;
+	margin-right:2px;
+}
+	
+.far{
+	float:left;
+	margin: 0 0 0 250px;
+	font-size:1.4rem;
+	cursor:pointer;
+}
+	
+.fa-bell-slash{
+	margin:-18px 0 0 197px
+}
