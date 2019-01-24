@@ -12,7 +12,8 @@ targetD.min = new Date().toISOString().substring(0,10);
 targetD.max = new Date(new Date().setDate(new Date().getDate()+9998)).toISOString().substring(0,10);
 targetD.addEventListener("change", dateTimeChange);
 targetT.addEventListener("change", dateTimeChange);
-endAudio.src = "https://freesound.org/data/previews/200/200318_2641534-lq.mp3";
+//endAudio.src = "https://freesound.org/data/previews/200/200318_2641534-lq.mp3";
+endAudio.src = "audio/bell.mp3";
 speaker.className = "far";
 speaker.addEventListener("click", audioOnOff);
 
