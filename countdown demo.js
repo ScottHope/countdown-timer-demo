@@ -1,3 +1,4 @@
+location = "https://scotthope.github.io/Scott-Hope/Countdown%20Timer%20Demo.html";
 //VARIABLES
 let targetD = document.querySelector("input[type='date']"),
 targetT = document.querySelector("input[type='time']"),
